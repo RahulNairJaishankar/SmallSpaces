@@ -94,6 +94,7 @@ class FirstViewController: UIViewController, MKMapViewDelegate,CLLocationManager
                 {
                     selectedAnnotation = i
                     self.performSegueWithIdentifier("AfterAnnotationClick", sender: self)
+                    break
                 }
             }
 
