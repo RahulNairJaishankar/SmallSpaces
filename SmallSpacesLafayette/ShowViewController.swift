@@ -29,7 +29,7 @@ class ShowViewController: UIViewController
     override func viewDidLoad() {
         ImageView.image = Image
         DescriptionVIew.text = desc
-        AuthorVIew.text = Name
+        AuthorVIew.text = "Artist: \(Name)"
         
         DescriptionVIew.font = UIFont(name: "Helvetica", size: 18)
     }
