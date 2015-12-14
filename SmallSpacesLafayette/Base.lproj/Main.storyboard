@@ -129,16 +129,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="222"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D33-Sk-Zep">
-                                <rect key="frame" x="20" y="294" width="174" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="174" id="YgN-59-7lb"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZN-yc-ZNj">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZN-yc-ZNj">
                                 <rect key="frame" x="270" y="298" width="93" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="Show on Map"/>
@@ -158,27 +149,35 @@
                                     <segue destination="fCW-Gr-led" kind="show" identifier="showLargerImage" id="Xpg-te-kTH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D33-Sk-Zep">
+                                <rect key="frame" x="20" y="298" width="174" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="PWN-OQ-E4G"/>
+                                    <constraint firstAttribute="width" constant="174" id="VA1-Y5-J22"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="oZN-yc-ZNj" firstAttribute="leading" secondItem="D33-Sk-Zep" secondAttribute="trailing" constant="76" id="040-Jg-UXu"/>
-                            <constraint firstItem="gKp-ii-hmy" firstAttribute="leading" secondItem="D33-Sk-Zep" secondAttribute="leading" id="3fy-av-fqJ"/>
                             <constraint firstItem="gCc-hZ-CLw" firstAttribute="trailing" secondItem="Qek-jp-52B" secondAttribute="trailing" id="7kF-kf-nx1"/>
-                            <constraint firstItem="oZN-yc-ZNj" firstAttribute="bottom" secondItem="D33-Sk-Zep" secondAttribute="bottom" id="L9A-pl-WTm"/>
+                            <constraint firstItem="gKp-ii-hmy" firstAttribute="top" secondItem="D33-Sk-Zep" secondAttribute="bottom" constant="4" id="Cs5-X9-o8e"/>
                             <constraint firstItem="oZN-yc-ZNj" firstAttribute="top" secondItem="Qek-jp-52B" secondAttribute="bottom" constant="12" id="LKF-aa-sQ6"/>
-                            <constraint firstItem="gKp-ii-hmy" firstAttribute="top" secondItem="D33-Sk-Zep" secondAttribute="bottom" constant="8" symbolic="YES" id="Mkh-Tc-NM8"/>
+                            <constraint firstItem="D33-Sk-Zep" firstAttribute="top" secondItem="gCc-hZ-CLw" secondAttribute="bottom" constant="12" id="MnL-X3-2lt"/>
+                            <constraint firstItem="oZN-yc-ZNj" firstAttribute="leading" secondItem="D33-Sk-Zep" secondAttribute="trailing" constant="76" id="P0O-Ke-Feh"/>
                             <constraint firstItem="Qek-jp-52B" firstAttribute="leading" secondItem="dOb-HA-dc8" secondAttribute="leading" id="RFc-1A-E5B"/>
+                            <constraint firstItem="D33-Sk-Zep" firstAttribute="leading" secondItem="dOb-HA-dc8" secondAttribute="leadingMargin" constant="4" id="a66-Gp-bE1"/>
                             <constraint firstItem="aDA-sJ-cmF" firstAttribute="top" secondItem="gKp-ii-hmy" secondAttribute="bottom" constant="23" id="e9a-BR-aMF"/>
-                            <constraint firstItem="aDA-sJ-cmF" firstAttribute="top" secondItem="D33-Sk-Zep" secondAttribute="bottom" constant="290" id="eF6-AF-vsw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oZN-yc-ZNj" secondAttribute="trailing" constant="-4" id="fIl-IP-cl8"/>
+                            <constraint firstItem="D33-Sk-Zep" firstAttribute="top" secondItem="oZN-yc-ZNj" secondAttribute="top" id="lSH-sp-0ts"/>
                             <constraint firstItem="aDA-sJ-cmF" firstAttribute="top" secondItem="Qek-jp-52B" secondAttribute="bottom" constant="332" id="ljB-2u-ixL"/>
-                            <constraint firstItem="D33-Sk-Zep" firstAttribute="leading" secondItem="dOb-HA-dc8" secondAttribute="leadingMargin" constant="4" id="nnp-p6-ARE"/>
                             <constraint firstItem="gCc-hZ-CLw" firstAttribute="leading" secondItem="Qek-jp-52B" secondAttribute="leading" id="o4l-cX-Cz6"/>
                             <constraint firstAttribute="trailing" secondItem="Qek-jp-52B" secondAttribute="trailing" id="qDQ-ea-Pcm"/>
                             <constraint firstItem="gKp-ii-hmy" firstAttribute="centerX" secondItem="Qek-jp-52B" secondAttribute="centerX" id="qOM-kt-gqT"/>
-                            <constraint firstItem="D33-Sk-Zep" firstAttribute="top" secondItem="Qek-jp-52B" secondAttribute="bottom" constant="8" symbolic="YES" id="qlg-Mj-pM7"/>
-                            <constraint firstItem="D33-Sk-Zep" firstAttribute="top" secondItem="gCc-hZ-CLw" secondAttribute="bottom" constant="8" symbolic="YES" id="rNW-ai-SrJ"/>
                             <constraint firstItem="Qek-jp-52B" firstAttribute="top" secondItem="Jrg-ce-TKo" secondAttribute="bottom" id="rtE-d8-qfW"/>
+                            <constraint firstItem="D33-Sk-Zep" firstAttribute="leading" secondItem="gKp-ii-hmy" secondAttribute="leading" id="sw1-Dx-ZZP"/>
                             <constraint firstItem="gCc-hZ-CLw" firstAttribute="top" secondItem="Qek-jp-52B" secondAttribute="top" id="u0U-3F-QQ6"/>
                         </constraints>
                     </view>

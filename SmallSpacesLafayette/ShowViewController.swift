@@ -30,6 +30,8 @@ class ShowViewController: UIViewController
         ImageView.image = Image
         DescriptionVIew.text = desc
         AuthorVIew.text = Name
+        
+        DescriptionVIew.font = UIFont(name: "Helvetica", size: 18)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
