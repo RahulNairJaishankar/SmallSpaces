@@ -283,7 +283,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="384" id="2t4-fS-tmj"/>
                                 </constraints>
-                                <mutableString key="text">Small Spaces is a city commissioned art movement working to create street art that will revive the vibrancy of the downtown area while creating a sense of community. Small Spaces has already installed over eighty pieces of street art, ranging from paste-up drawings to spray-painted murals and will add more pieces in the future. The purpose of Small Spaces is to not only introduce art and promote downtown culture in the city, but to re-work boarded up windows and other run-down spaces to improve the general aesthetic of Lafayette through “placemaking”, making ordinary spaces into destinations where people will interact and develop a better sense of community.</mutableString>
+                                <string key="text">Small Spaces is a city commissioned art movement working to create street art that will revive the vibrancy of the downtown area while creating a sense of community. Small Spaces has already installed over eighty pieces of street art, ranging from paste-up drawings to spray-painted murals and will add more pieces in the future. The purpose of Small Spaces is to not only introduce art and promote downtown culture in the city, but to re-work boarded up windows and other run-down spaces to improve the general aesthetic of Lafayette through “placemaking”, making ordinary spaces into destinations where people will interact and develop a better sense of community.
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
