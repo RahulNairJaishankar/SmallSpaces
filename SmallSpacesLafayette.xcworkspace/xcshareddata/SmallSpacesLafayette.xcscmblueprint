@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5FFD6B687A5A1E08B27558B63836A9BA7EE09D3C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5FFD6B687A5A1E08B27558B63836A9BA7EE09D3C" : 0,
+    "FC8314BED908BB97802E863FE154099B878D026B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8B1FD214-76A7-4D96-A666-6DB2AA18980C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5FFD6B687A5A1E08B27558B63836A9BA7EE09D3C" : "SmallSpacesLafayette\/",
+    "FC8314BED908BB97802E863FE154099B878D026B" : "SmallSpaceLayette\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SmallSpacesLafayette",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SmallSpacesLafayette.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RahulNairJaishankar\/SmallSpaces.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FFD6B687A5A1E08B27558B63836A9BA7EE09D3C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RahulNairJaishankar\/iOSSmallSpacesLafayetteApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FC8314BED908BB97802E863FE154099B878D026B"
+    }
+  ]
+}

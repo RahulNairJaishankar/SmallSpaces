@@ -11,6 +11,7 @@
 		EF4F63E01C1E28EA00EB5035 /* ShowMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F63DF1C1E28EA00EB5035 /* ShowMapViewController.swift */; };
 		EF4F63E21C1E29DA00EB5035 /* ShowLargerImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F63E11C1E29DA00EB5035 /* ShowLargerImageViewController.swift */; };
 		EF77A6E41C1E0593002CFAD0 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF77A6E31C1E0593002CFAD0 /* ShowViewController.swift */; };
+		EF899FD91C27CA7500251066 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = EF899FD81C27CA7500251066 /* JSON.json */; };
 		EFBF43021C17C00400948010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF43011C17C00400948010 /* AppDelegate.swift */; };
 		EFBF43041C17C00400948010 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF43031C17C00400948010 /* FirstViewController.swift */; };
 		EFBF43061C17C00400948010 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF43051C17C00400948010 /* SecondViewController.swift */; };
@@ -20,7 +21,6 @@
 		EFBF43161C17C08A00948010 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EFBF43151C17C08A00948010 /* Podfile */; };
 		EFBF43181C17C1C200948010 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBF43171C17C1C200948010 /* SwiftyJSON.framework */; };
 		EFBF431C1C1896A600948010 /* PJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF431B1C1896A600948010 /* PJson.swift */; };
-		EFBF431E1C19CBA000948010 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = EFBF431D1C19CBA000948010 /* JSON.json */; };
 		EFBF43201C19F98400948010 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF431F1C19F98400948010 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 		EF4F63DF1C1E28EA00EB5035 /* ShowMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMapViewController.swift; sourceTree = "<group>"; };
 		EF4F63E11C1E29DA00EB5035 /* ShowLargerImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowLargerImageViewController.swift; sourceTree = "<group>"; };
 		EF77A6E31C1E0593002CFAD0 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		EF899FD81C27CA7500251066 /* JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JSON.json; path = ../../SmallSpaceLayette/SmallSpaceLayette/JSON.json; sourceTree = "<group>"; };
 		EFBF42FE1C17C00400948010 /* SmallSpacesLafayette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallSpacesLafayette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBF43011C17C00400948010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFBF43031C17C00400948010 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		EFBF43151C17C08A00948010 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		EFBF43171C17C1C200948010 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		EFBF431B1C1896A600948010 /* PJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PJson.swift; sourceTree = "<group>"; };
-		EFBF431D1C19CBA000948010 /* JSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JSON.json; path = ../../../../Downloads/JSON.json; sourceTree = "<group>"; };
 		EFBF431F1C19F98400948010 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +99,7 @@
 		EFBF43001C17C00400948010 /* SmallSpacesLafayette */ = {
 			isa = PBXGroup;
 			children = (
-				EFBF431D1C19CBA000948010 /* JSON.json */,
+				EF899FD81C27CA7500251066 /* JSON.json */,
 				EFBF43031C17C00400948010 /* FirstViewController.swift */,
 				EFBF431B1C1896A600948010 /* PJson.swift */,
 				EFBF43011C17C00400948010 /* AppDelegate.swift */,
@@ -178,9 +178,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBF431E1C19CBA000948010 /* JSON.json in Resources */,
 				EFBF430E1C17C00400948010 /* LaunchScreen.storyboard in Resources */,
 				EFBF430B1C17C00400948010 /* Assets.xcassets in Resources */,
+				EF899FD91C27CA7500251066 /* JSON.json in Resources */,
 				EFBF43161C17C08A00948010 /* Podfile in Resources */,
 				EFBF43091C17C00400948010 /* Main.storyboard in Resources */,
 			);
