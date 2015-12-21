@@ -43,7 +43,7 @@ class FirstViewController: UIViewController, MKMapViewDelegate,CLLocationManager
         
         parseJson()
         
-        for(var i = 0; i < 20; i++)//adding all annotations to the View.
+        for(var i = 0; i < 54; i++)//adding all annotations to the View.
         {
             map.addAnnotation(ParsedJson[i].annotation)
         }
@@ -67,7 +67,7 @@ class FirstViewController: UIViewController, MKMapViewDelegate,CLLocationManager
         //print("\(test)")
         //print("\(test2)")
         
-        for(var i = 1; i < 21; i++)
+        for(var i = 1; i < 55; i++)
             {
             var artistName = readableJson["collection"]["art\(i)"]["artistName"] //parsing data
             var description = readableJson["collection"]["art\(i)"]["description"]
